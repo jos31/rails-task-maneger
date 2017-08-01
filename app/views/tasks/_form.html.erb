@@ -1,0 +1,8 @@
+_form.html.erb
+<%= form_for(@task) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :detail %>
+  <%= f.text_field :detail %>
+  <%= f.submit %>
+<% end %>
